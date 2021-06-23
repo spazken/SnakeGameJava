@@ -19,7 +19,7 @@ public class GamePanel extends JPanel implements ActionListener {
 	final int y[] = new int[GAME_UNITS];
 	int bodyParts = 6;
 	int mouseEaten;
-	int mouseX;                                            // Coordinates of the location of the apples
+	int mouseX;                                            // Coordinates of the location of the mouse
 	int mouseY;
 	char direction = 'R';
 	boolean running = false;
